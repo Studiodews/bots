@@ -7,7 +7,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-    console.log('I am ready!');
+    console.log('Whoo ho, I am ready!');
 
 });
 
@@ -27,5 +27,5 @@ client.on('message', message => {
 
 // THIS  MUST  BE  THIS  WAY
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.NijKYX1xVFtfZ7J2zLyCW7jgQaBCTZsD);
 //BOT_TOKEN is the Client Secret
